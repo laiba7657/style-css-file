@@ -1,0 +1,73 @@
+/* Resetting default margin and padding */
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.feedback-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* Background color */
+  color: #000000; /* Text color */
+}
+
+.centered h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 38px; /* Adjust font size for 'Feedback' */
+}
+
+.questionnaires {
+  text-align: start;
+  width: 80%;
+  margin: 0 auto;
+  paddingpx;
+  background-color: #FFFFFF; /* Background color */
+  color: #526cc0; /* Text color */
+  margin-bottom: 20px;
+}
+
+.questionnaires p {
+  font-size: 33px; /* Adjust font size for 'Questionnaires' */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Adjust spacing between rows */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: lightpink; /* Light pink color */
+  margin-left: 680px; /* Adjust margin as needed */
+  display: inline-block;
+}
+
+.light-blue {
+  background-color: rgb(243, 248, 247); /* Light blue color */
+}
+
+.light-pink {
+  background-color: lightpink; /* Light pink color */
+}
+
+.rounded-box {
+  border-radius: 5px;
+  padding: 10px;
+  width: 700px; /* Adjust width as needed */
+  margin-right: 50px; /* Adjust margin to the right */
+  border: 2px solid #c3ccd7; /* Add border color and size */
+}
+
+
+
